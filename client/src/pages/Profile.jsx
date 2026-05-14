@@ -56,14 +56,6 @@ const Profile = () => {
             {/* Profile Card */}
             <section className="glass-card border border-glass-border rounded-lg p-card-padding">
               <div className="flex flex-col md:flex-row gap-8 items-start">
-                <div className="relative">
-                  <div className="w-32 h-32 rounded-full border-4 border-tertiary-fixed overflow-hidden shadow-lg">
-                    <img className="w-full h-full object-cover" alt="User Profile" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCSIGXCIWxM5A5JU4qvlQLxrI8O2zsF3fj3UGEQ5U6c0ojYEQkQnN3TDiIpIOOkfay_juWDaVYRRgfNVN91UDeXCdZFHBtESON60WczQP1BOQx0oiy-EHH5MEIKnK7AC3t-isl3YfbCd7xZnZ0FpkiNn1iCsJkLGL6S4FxRVpUwNmoIwzILbpFKiuTJ1uhIOlCfiE7v7bvD6Kl1tSh6_R1U4YC2_87dO0Fr70uotAdT09OkuNDkCLqUAJhfi3m34xKrL0eltPiFJAQ"/>
-                  </div>
-                  <button className="absolute bottom-0 right-0 bg-on-surface text-white rounded-full p-2 shadow-md hover:scale-110 transition-transform">
-                    <span className="material-symbols-outlined text-[18px]">edit</span>
-                  </button>
-                </div>
                 <div className="flex-1 w-full">
                   <div className="flex justify-between items-center mb-6">
                     <h3 className="font-headline-md text-headline-md">Personal Information</h3>
