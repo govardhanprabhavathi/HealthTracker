@@ -13,9 +13,7 @@ const app = express();
 
 // Middleware
 app.use(express.json());
-app.use(cors({
-    origin: process.env.CLIENT_URL || '*', // Allow Vercel or local
-}));
+app.use(cors()); // Allow all origins for Vercel Serverless
 
 // Route files
 const authRoutes = require('./routes/authRoutes');
